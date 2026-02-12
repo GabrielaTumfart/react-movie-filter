@@ -12,6 +12,8 @@ export default function App() {
     { title: "Interstellar", genre: "Fantascienza" },
     { title: "Pulp Fiction", genre: "Thriller" },
   ];
+
+
   
 
 
@@ -23,6 +25,13 @@ export default function App() {
     <div>
      
       <h1>React Movie Filter</h1>
+
+      <select>
+
+        <option>
+          
+        </option>
+      </select>
 
       <ul>
       {movies.map((movie, index) => (
