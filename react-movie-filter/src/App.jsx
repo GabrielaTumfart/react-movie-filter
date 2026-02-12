@@ -17,15 +17,27 @@ export default function App() {
 
 
 
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
+    <div>
      
       <h1>React Movie Filter</h1>
+
+      <ul>
+      {movies.map((movie, index) => (
+
+          <li key={index}>
+            {movie.title} - {movie.genre}
+          </li>
+        ))}
+
+
+
+      </ul>
      
        
-    </>
+      </div>
   )
 }
 
