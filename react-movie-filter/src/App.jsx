@@ -19,7 +19,7 @@ export default function App() {
       const [selectedGenre, setSelectedGenre] = useState("");
 
       const filteredMovies = selectedGenre 
-      ? movies.filter((movie)) => movie.genre === selectedGenre : movies;
+      ? movies.filter((movie) => movie.genre === selectedGenre ) : movies;
 
   
 
@@ -38,7 +38,7 @@ export default function App() {
       </select>
 
       <ul>
-      {movies.map((movie, index) => (
+      {filteredMovies.map((movie, index) => (
 
           <li key={index}>
             {movie.title} - {movie.genre}
