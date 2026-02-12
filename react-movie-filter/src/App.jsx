@@ -18,13 +18,8 @@ export default function App() {
 
       const [selectedGenre, setSelectedGenre] = useState("");
 
-      const filteredMovies = selectedGenre ? movies.filter() : movies;
-
-
-  
-
-
-
+      const filteredMovies = selectedGenre 
+      ? movies.filter((movie)) => movie.genre === selectedGenre : movies;
 
   
 
