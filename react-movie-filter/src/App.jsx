@@ -30,7 +30,7 @@ export default function App() {
      
       <h1>React Movie Filter</h1>
 
-      <select value={selectedGenre} onChange={(e) => >
+      <select value={selectedGenre} onChange={(e) => setSelectedGenre(e.target.value)} >
 
         <option value="">Tutti i genere</option>
         <option value="Fantascienza">Fantascienza</option>
