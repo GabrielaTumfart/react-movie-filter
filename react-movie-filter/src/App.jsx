@@ -28,9 +28,11 @@ export default function App() {
 
       <select>
 
-        <option>
-          
-        </option>
+        <option value="">Tutti i genere</option>
+        <option value="">Tutti i genere</option>
+        <option value="">Tutti i genere</option>
+        <option value="">Tutti i genere</option>
+        <option value="">Tutti i genere</option>
       </select>
 
       <ul>
