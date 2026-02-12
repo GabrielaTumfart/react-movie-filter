@@ -12,7 +12,11 @@ export default function App() {
     { title: "Interstellar", genre: "Fantascienza" },
     { title: "Pulp Fiction", genre: "Thriller" },
   ];
+  
 
+
+
+      cosnt [selectedGenre, setSelectedGenre] = useState();
 
   
 
