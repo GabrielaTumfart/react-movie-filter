@@ -16,7 +16,7 @@ export default function App() {
 
 
 
-      cosnt [selectedGenre, setSelectedGenre] = useState();
+      const [selectedGenre, setSelectedGenre] = useState("");
 
   
 
