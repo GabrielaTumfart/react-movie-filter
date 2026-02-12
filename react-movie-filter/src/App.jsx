@@ -18,6 +18,9 @@ export default function App() {
 
       const [selectedGenre, setSelectedGenre] = useState("");
 
+      const filteredMovies = selectedGenre
+      
+
   
 
 
