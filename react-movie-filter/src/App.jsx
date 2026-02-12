@@ -29,10 +29,10 @@ export default function App() {
       <select>
 
         <option value="">Tutti i genere</option>
-        <option value="">Tutti i genere</option>
-        <option value="">Tutti i genere</option>
-        <option value="">Tutti i genere</option>
-        <option value="">Tutti i genere</option>
+        <option value="Fantascienza">Fantascienza</option>
+        <option value="Thriller">Thriller</option>
+        <option value="Romantico">Romantico</option>
+        <option value="Azione">Azione</option>
       </select>
 
       <ul>
